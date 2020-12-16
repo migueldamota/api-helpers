@@ -1,6 +1,6 @@
 {
-  "name": "api-helpers",
-  "version": "1.0.1",
+  "name": "@migueldamota/api-helpers",
+  "version": "1.0.2",
   "description": "Express Error Codes for APIs",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migueldamota/api-helpers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/migueldamota/api-helpers/issues"
+  },
+  "homepage": "https://github.com/migueldamota/api-helpers#readme"
 }
