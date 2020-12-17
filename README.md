@@ -7,4 +7,10 @@ Install package with ``npm i @migueldamota/api-helpers --save``
 ### Usage:
 Status Codes (error_status): https://httpstatuses.com
 
-``error(error_status, code)``
+res: Response Object of Express
+
+error_status: Error code (status code)
+
+code: Code if need (default: 0)
+
+``error(res, error_status, code)``
