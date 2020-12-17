@@ -1,6 +1,6 @@
 {
   "name": "@migueldamota/api-helpers",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Express Error Codes for APIs",
   "main": "index.js",
   "scripts": {

@@ -14,11 +14,11 @@ const errors = {
     500: "500: Internal Server Error",
 }
 
-const error = (error, code = 0) => {
-    return {
+const error = (res, error, code = 0) => {
+    return res.status(error).json({
         message: errors[error],
         code,
-    }
+    });
 }
 
 module.exports = error;
