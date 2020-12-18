@@ -1,8 +1,10 @@
 const errors = {
     200: "200: OK",
-    201: "201: Not Authorized",
+    201: "201: Created",
+    202: "202: Accepted",
     204: "204: No Content",
 
+    302: "302: Found",
     304: "304: Not Modified",
 
     400: "400: Bad Request",
